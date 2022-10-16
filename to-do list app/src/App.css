@@ -1,0 +1,108 @@
+/* Light Lime: #abd699
+
+Fresh Lemon: #ffe26a
+
+Teal: #75c9b7
+
+Mint: #c7ddcc
+
+Navy: #16123f
+*/
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(171, 214, 153, 1) 0%,
+    rgba(117, 201, 183, 1) 55%
+  );
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  border: 5px solid #fff8de;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #171532;
+  font-size: 20px;
+  color: white;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+input {
+  width: 80%;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-submit {
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 10px;
+  background-color: #ffe26a;
+}
+
+.btn-edit {
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 5px;
+  color: white;
+  background-color: #171532;
+}
+
+.btn-delete {
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  margin: 0 5px;
+  background-color: #980707;
+}
+
+.allTodos {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(171, 214, 153, 1) 0%,
+    rgba(117, 201, 183, 1) 55%
+  );
+  color: #171532;
+  border: 2px solid #ffe26a;
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+
+  align-items: center;
+}
+
+.todoText {
+  flex: 1;
+}
